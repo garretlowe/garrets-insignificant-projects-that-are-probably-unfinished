@@ -25,7 +25,7 @@ This is mainly an archival repository. If I ever complete a project in here to a
 * [Language Generalizer](https://github.com/garretlowe/garrets-insignificant-projects-that-are-probably-unfinished/tree/main/language-generalizer)
 * [Elder Scrolls Names](https://github.com/garretlowe/garrets-insignificant-projects-that-are-probably-unfinished/tree/main/elder-scrolls-names)
 
-## Projects By Date
+## Projects By Start Date
 
 ### 2020
 

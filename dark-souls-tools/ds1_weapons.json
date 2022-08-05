@@ -1,0 +1,5476 @@
+[
+	{
+		"name": "Caestus",
+		"attack_type": ["Strike"],
+		"weapon_type": "Fist",
+		"attack_rating": {
+			"physical": 66,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 5,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 0.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Claw",
+		"attack_type": ["Slash"],
+		"weapon_type": "Fist",
+		"attack_rating": {
+			"physical": 72,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 6,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 150,
+		"weight": 1.0,
+		"upgrade_type": {
+			"normal": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dark Hand",
+		"attack_type": ["Strike"],
+		"weapon_type": "Fist",
+		"attack_rating": {
+			"physical": 200,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 80,
+			"magic": 80,
+			"fire": 80,
+			"lightning": 80,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 130
+		},
+		"durability": 999,
+		"weight": 0.5,
+		"upgrade_type": {
+			"normal": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Dragon Bone Fist",
+		"attack_type": ["Strike"],
+		"weapon_type": "Fist",
+		"attack_rating": {
+			"physical": 95,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "A",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 20,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 999,
+		"weight": 8.0,
+		"upgrade_type": {
+			"normal": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Blacksmith Giant Hammer",
+		"attack_type": ["Strike"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 120,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 200,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Blacksmith Hammer",
+		"attack_type": ["Strike"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 87,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 14,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 5.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Hammer of Vamos",
+		"attack_type": ["Strike"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 115,
+			"magic": 0,
+			"fire": 64,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 14,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 5.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Club",
+		"attack_type": ["Strike"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 87,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "A",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 10,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 3.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Mace",
+		"attack_type": ["Strike"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 91,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 12,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 4.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Morning Star",
+		"attack_type": ["Strike"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 83,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 11,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 180,
+		"weight": 4.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Pickaxe",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 89,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 14,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 5.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Reinforced Club",
+		"attack_type": ["Strike"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 97,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 12,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 100,
+		"weight": 4.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Warpick",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Hammer",
+		"attack_rating": {
+			"physical": 91,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 11,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 220,
+		"weight": 3.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Demon's Great Hammer",
+		"attack_type": ["Strike"],
+		"weapon_type": "Great Hammer",
+		"attack_rating": {
+			"physical": 138,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 46,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 22.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dragon Tooth",
+		"attack_type": ["Strike"],
+		"weapon_type": "Great Hammer",
+		"attack_rating": {
+			"physical": 290,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 40,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 999,
+		"weight": 18.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Grant",
+		"attack_type": ["Strike"],
+		"weapon_type": "Great Hammer",
+		"attack_rating": {
+			"physical": 130,
+			"magic": 130,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "A"
+		},
+		"req_param": {
+			"strength": 50,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 30
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 130,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 24.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Great Club",
+		"attack_type": ["Strike"],
+		"weapon_type": "Great Hammer",
+		"attack_rating": {
+			"physical": 135,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 28,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 12.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Large Club",
+		"attack_type": ["Strike"],
+		"weapon_type": "Great Hammer",
+		"attack_rating": {
+			"physical": 120,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "A",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 26,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 180,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 11.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Smough's Hammer",
+		"attack_type": ["Strike"],
+		"weapon_type": "Great Hammer",
+		"attack_rating": {
+			"physical": 300,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 58,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 28.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Battle Axe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Axe",
+		"attack_rating": {
+			"physical": 95,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 12,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 4.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Butcher Knife",
+		"attack_type": ["Regular"],
+		"weapon_type": "Axe",
+		"attack_rating": {
+			"physical": 90,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 24,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 10.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Crescent Axe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Axe",
+		"attack_rating": {
+			"physical": 115,
+			"magic": 115,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "B"
+		},
+		"req_param": {
+			"strength": 18,
+			"dexterity": 12,
+			"intelligence": 0,
+			"faith": 16
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 120,
+			"occult": 0
+		},
+		"durability": 180,
+		"weight": 7.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Gargoyle Tail Axe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Axe",
+		"attack_rating": {
+			"physical": 93,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 14,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 150,
+		"weight": 5.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Golem Axe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Axe",
+		"attack_rating": {
+			"physical": 170,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 36,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 16.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Hand Axe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Axe",
+		"attack_rating": {
+			"physical": 80,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 8,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 250,
+		"weight": 2.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Black Knight Greataxe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greataxe",
+		"attack_rating": {
+			"physical": 229,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 36,
+			"dexterity": 18,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 16.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Demon's Greataxe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greataxe",
+		"attack_rating": {
+			"physical": 114,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "A",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 46,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 22.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dragon King Greataxe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greataxe",
+		"attack_rating": {
+			"physical": 380,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 50,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 400,
+		"weight": 24.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Greataxe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greataxe",
+		"attack_rating": {
+			"physical": 140,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 32,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 230,
+		"weight": 14.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Stone Greataxe",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greataxe",
+		"attack_rating": {
+			"physical": 190,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 55,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 48,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 700,
+		"weight": 24.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Bandit's Knife",
+		"attack_type": ["Slash"],
+		"weapon_type": "Dagger",
+		"attack_rating": {
+			"physical": 56,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 147
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 6,
+			"dexterity": 12,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 1.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dagger",
+		"attack_type": ["Regular"],
+		"weapon_type": "Dagger",
+		"attack_rating": {
+			"physical": 56,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 131
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 5,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 0.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dark Silver Tracer",
+		"attack_type": ["Slash", "Thrust"],
+		"weapon_type": "Dagger",
+		"attack_rating": {
+			"physical": 75,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 160
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "S",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 6,
+			"dexterity": 25,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 120,
+		"weight": 1.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Ghost Blade",
+		"attack_type": ["Regular"],
+		"weapon_type": "Dagger",
+		"attack_rating": {
+			"physical": 110,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 127
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 5,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 100,
+		"weight": 0.5,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Parrying Dagger",
+		"attack_type": ["Slash", "Thrust"],
+		"weapon_type": "Dagger",
+		"attack_rating": {
+			"physical": 54,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 131
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 5,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 0.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Priscilla's Dagger",
+		"attack_type": ["Regular"],
+		"weapon_type": "Dagger",
+		"attack_rating": {
+			"physical": 80,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "A",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 6,
+			"dexterity": 20,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 500,
+			"poison": 0,
+			"divine": 0,
+			"occult": 110
+		},
+		"durability": 100,
+		"weight": 1.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Estoc",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Thrusting Sword",
+		"attack_rating": {
+			"physical": 75,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 22
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 10,
+			"dexterity": 12,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 150,
+		"weight": 3.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Mail Breaker",
+		"attack_type": ["Regular"],
+		"weapon_type": "Thrusting Sword",
+		"attack_rating": {
+			"physical": 57,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 120
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 22
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 5,
+			"dexterity": 12,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 0.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Rapier",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Thrusting Sword",
+		"attack_rating": {
+			"physical": 73,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 110
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 22
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 7,
+			"dexterity": 12,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 150,
+		"weight": 1.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Ricard's Rapier",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Thrusting Sword",
+		"attack_rating": {
+			"physical": 70,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 22
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 8,
+			"dexterity": 20,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 100,
+		"weight": 2.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Velka's Rapier",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Thrusting Sword",
+		"attack_rating": {
+			"physical": 62,
+			"magic": 104,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 22
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "B",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 8,
+			"dexterity": 16,
+			"intelligence": 16,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 110
+		},
+		"durability": 130,
+		"weight": 2.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Astora's Straight Sword",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 80,
+			"magic": 80,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 45,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "C"
+		},
+		"req_param": {
+			"strength": 10,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 14
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 120,
+			"occult": 0
+		},
+		"durability": 160,
+		"weight": 3.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Balder Side Sword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 80,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 10,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 120,
+		"weight": 3.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Barbed Straight Sword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 80,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 10,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 160,
+		"weight": 3.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Broadsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 82,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 10,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 3.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Broken Straight Sword",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 40,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 20,
+			"magic": 5,
+			"fire": 15,
+			"lightning": 15,
+			"stability": 16
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 8,
+			"dexterity": 8,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 2.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Crystal Straight Sword",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 150,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 60,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Dark Sword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 82,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 16,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Drake Sword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 200,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 360,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Longsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 80,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 10,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 3.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Shortsword",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 78,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 8,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 2.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Silver Knight Straight Sword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 175,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 22,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Straight Sword Hilt",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 20,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 20,
+			"magic": 5,
+			"fire": 15,
+			"lightning": 15,
+			"stability": 10
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 6,
+			"dexterity": 6,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 1.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Sunlight Straight Sword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Straight Sword",
+		"attack_rating": {
+			"physical": 82,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 50,
+			"magic": 10,
+			"fire": 35,
+			"lightning": 35,
+			"stability": 32
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 12,
+			"dexterity": 12,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 240,
+		"weight": 4.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Abyss Greatsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 160,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 40,
+			"magic": 50,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 22,
+			"dexterity": 18,
+			"intelligence": 18,
+			"faith": 18
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 9.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Bastard Sword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 105,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Black Knight Sword",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 220,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 20,
+			"dexterity": 18,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 8.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Claymore",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 103,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Crystal Greatsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 190,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 20,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 60,
+		"weight": 8.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Flamberge",
+		"attack_type": ["Slash"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 100,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 160,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Great Lord Greatsword",
+		"attack_type": ["Slash"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 256,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 26
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 20,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 400,
+		"weight": 8.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Greatsword of Artorias",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 120,
+			"magic": 85,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "B",
+			"faith": "B"
+		},
+		"req_param": {
+			"strength": 24,
+			"dexterity": 18,
+			"intelligence": 20,
+			"faith": 20
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 140,
+			"occult": 0
+		},
+		"durability": 400,
+		"weight": 10.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Greatsword of Artorias (Cursed)",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 178,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "C",
+			"faith": "C"
+		},
+		"req_param": {
+			"strength": 24,
+			"dexterity": 18,
+			"intelligence": 18,
+			"faith": 18
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 400,
+		"weight": 10.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Man-serpent Greatsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 110,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 24,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 10.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Moonlight Greatsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 132,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "A",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 10,
+			"intelligence": 28,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Obsidian Greatsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 320,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 20,
+			"dexterity": 16,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 350,
+		"weight": 8.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Stone Greatsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Greatsword",
+		"attack_rating": {
+			"physical": 148,
+			"magic": 100,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 38
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "E",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 40,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 800,
+		"weight": 18.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Black Knight Greatsword",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Ultra Greatsword",
+		"attack_rating": {
+			"physical": 220,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 70,
+			"magic": 10,
+			"fire": 50,
+			"lightning": 50,
+			"stability": 44
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 32,
+			"dexterity": 18,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 300,
+		"weight": 14.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Demon Great Machete",
+		"attack_type": ["Regular"],
+		"weapon_type": "Ultra Greatsword",
+		"attack_rating": {
+			"physical": 133,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 70,
+			"magic": 10,
+			"fire": 50,
+			"lightning": 50,
+			"stability": 44
+		},
+		"param_bonus": {
+			"strength": "B",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 40,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 18.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dragon Greatsword",
+		"attack_type": ["Regular"],
+		"weapon_type": "Ultra Greatsword",
+		"attack_rating": {
+			"physical": 390,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 70,
+			"magic": 10,
+			"fire": 50,
+			"lightning": 50,
+			"stability": 44
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 50,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 400,
+		"weight": 24.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": true,
+			"none": false
+		}
+	},
+	{
+		"name": "Greatsword",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Ultra Greatsword",
+		"attack_rating": {
+			"physical": 130,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 70,
+			"magic": 10,
+			"fire": 50,
+			"lightning": 50,
+			"stability": 44
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 12.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Zweihander",
+		"attack_type": ["Regular"],
+		"weapon_type": "Ultra Greatsword",
+		"attack_rating": {
+			"physical": 130,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 70,
+			"magic": 10,
+			"fire": 50,
+			"lightning": 50,
+			"stability": 44
+		},
+		"param_bonus": {
+			"strength": "C",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 24,
+			"dexterity": 10,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 10.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Chaos Blade",
+		"attack_type": ["Regular"],
+		"weapon_type": "Katana",
+		"attack_rating": {
+			"physical": 144,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 16,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 120,
+		"weight": 6.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Iaito",
+		"attack_type": ["Slash"],
+		"weapon_type": "Katana",
+		"attack_rating": {
+			"physical": 88,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 14,
+			"dexterity": 20,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 80,
+		"weight": 5.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Uchigatana",
+		"attack_type": ["Slash", "Thrust"],
+		"weapon_type": "Katana",
+		"attack_rating": {
+			"physical": 90,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 14,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 80,
+		"weight": 5.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Washing Pole",
+		"attack_type": ["Slash", "Thrust"],
+		"weapon_type": "Katana",
+		"attack_rating": {
+			"physical": 90,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 20,
+			"dexterity": 16,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 60,
+		"weight": 8.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Falchion",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Sword",
+		"attack_rating": {
+			"physical": 82,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 9,
+			"dexterity": 13,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 160,
+		"weight": 2.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Gold Tracer",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Sword",
+		"attack_rating": {
+			"physical": 130,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "A",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 9,
+			"dexterity": 25,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 240,
+		"weight": 2.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Jagged Ghost Blade",
+		"attack_type": ["Slash", "Thrust"],
+		"weapon_type": "Curved Sword",
+		"attack_rating": {
+			"physical": 155,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 7,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 100,
+		"weight": 1.5,
+		"upgrade_type": {
+			"standard": false,
+			"unique": true,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Painting Guardian Sword",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Sword",
+		"attack_rating": {
+			"physical": 76,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "A",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 7,
+			"dexterity": 20,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 300,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 100,
+		"weight": 1.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Quelaag's Fury Sword",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Sword",
+		"attack_rating": {
+			"physical": 60,
+			"magic": 0,
+			"fire": 170,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 11,
+			"dexterity": 13,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 3.5,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Scimitar",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Sword",
+		"attack_rating": {
+			"physical": 80,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 7,
+			"dexterity": 13,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 160,
+		"weight": 1.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Shotel",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Sword",
+		"attack_rating": {
+			"physical": 82,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 45,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 30
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 9,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 120,
+		"weight": 2.5,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Gravelord Sword",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Greatsword",
+		"attack_rating": {
+			"physical": 265,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 24,
+			"dexterity": 13,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 300,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 600,
+		"weight": 10.0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": true,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Murakumo",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Greatsword",
+		"attack_rating": {
+			"physical": 113,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 28,
+			"dexterity": 13,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 180,
+		"weight": 12.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Server",
+		"attack_type": ["Slash"],
+		"weapon_type": "Curved Greatsword",
+		"attack_rating": {
+			"physical": 107,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 60,
+			"magic": 10,
+			"fire": 40,
+			"lightning": 40,
+			"stability": 36
+		},
+		"param_bonus": {
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 24,
+			"dexterity": 13,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 140,
+		"weight": 10.0,
+		"upgrade_type": {
+			"standard": true,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Channeler's Trident",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Demon's Spear",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dragonslayer Spear",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Four-Pronged Plow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Moonlight Butterfly Horn",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Partizan",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Pike",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Silver Knight Spear",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Spear",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Winged Spear",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Black Knight Halberd",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Gargoyle's Halberd",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Giant's Halberd",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Great Scythe",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Halberd",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Lifehunt Scythe",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Lucerne",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Scythe",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Titanite Catch Pole",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Black Bow of Pharis",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Composite Bow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Darkmoon Bow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Longbow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Short Bow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Avelyn",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Heavy Crossbow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Light Crossbow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Sniper Crossbow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Dragonslayer Greatbow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Gough's Greatbow",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Guardian Tail",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Notched Whip",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Whip",
+		"attack_type": [],
+		"weapon_type": "",
+		"attack_rating": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "",
+			"dexterity": "",
+			"intelligence": "",
+			"faith": ""
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0,
+		"upgrade_type": {
+			"standard": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	}
+]

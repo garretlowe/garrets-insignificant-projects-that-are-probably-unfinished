@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>TES 3: Morrowind - Pathfinding</title>
+	<link rel="stylesheet" type="text/css" href="./stylesheet.css">
+	<h2>TES 3: Morrowind - Pathfinding</h2>
+</head>
+
+<body>
+
+	<div class="grid-container">
+    <div class="options">
+      <label for="s_sources">Source: </label>
+      <select id="s_sources" name="sources" style="width:150px">
+        <option value=""></option>
+      </select>
+      
+      <label for="s_destinations">Destination: </label>
+      <select id="s_destinations" name="destinations" style="width:150px">
+        <option value=""></option>
+      </select>
+      
+      <button id="b_calculate">Calculate</button><br><br>
+      
+      <input type="checkbox" id="c_max_time" name="allow_max_time">
+      <label for="t_max_time">Max Travel Time: </label>
+      <input type="number" value=0 min=-1 id="t_max_time" name="max_time" style="width:75px"><br>
+      
+      <input type="checkbox" id="c_max_cost" name="allow_max_cost">
+      <label for="t_max_time">Max Travel Cost: </label>
+      <input type="number" value=0 min=-1 id="t_max_cost" name="max_cost" style="width:75px"><br><br>
+      
+      <input type="checkbox" id="c_allow_road" name="allow_road">
+      <label for="c_allow_road">Allow Road Paths</label><br>
+      
+      <input type="checkbox" id="c_allow_boat" name="allow_boat">
+      <label for="c_allow_boat">Allow Boat Paths</label><br>
+      
+      <input type="checkbox" id="c_allow_strider" name="allow_strider">
+      <label for="c_allow_strider">Allow Silt Strider Paths</label><br>
+      
+      <input type="checkbox" id="c_allow_guild" name="allow_guild">
+      <label for="c_allow_guild">Allow Mage Guild Teleportation</label><br>
+      
+      <input type="checkbox" id="c_allow_propylon" name="allow_propylon">
+      <label for="c_allow_propylon">Allow Propylon Teleportation</label><br>
+      
+      <input type="checkbox" id="c_allow_master_propylon" name="allow_master_propylon">
+      <label for="c_allow_master_propylon">Allow Master Propylon Teleportation</label><br>
+      
+      <input type="checkbox" id="c_allow_dlc" name="allow_dlc">
+      <label for="c_allow_dlc">Allow DLC Paths</label><br>
+    </div>
+    
+    <div class="result">
+    </div>
+	</div>
+  
+	<footer>
+		<a href="https://github.com/garretlowe" rel="noopener noreferrer" target="_blank">&#169; Garret Lowe 2022</a>
+	</footer>
+  
+	<script src="./location_data.js"></script>
+	<script src="./index.js"></script>
+  
+</body>
+
+</html>

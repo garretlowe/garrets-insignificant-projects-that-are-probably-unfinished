@@ -1,0 +1,142 @@
+source,destination,travel_method,travel_time,gold_cost
+Dagon Fel,Khuul,boat,8
+Dagon Fel,Sadrith Mora,boat,10
+Dagon Fel,Tel Aruhn,boat,9
+Dagon Fel,Tel Mora,boat,5
+Ebonheart,Hla Oad,boat,5
+Ebonheart,Holamayan,boat,9
+Ebonheart,Sadrith Mora,boat,11
+Ebonheart,Tel Branora,boat,6
+Ebonheart,Vivec,boat,1
+Fort Frostmoth,Khuul,boat,6
+Fort Frostmoth,Raven Rock,boat,2
+Gnaar Mok,Hla Oad,boat,4
+Gnaar Mok,Khuul,boat,7
+Hla Oad,Ebonheart,boat,5
+Hla Oad,Gnaar Mok,boat,4
+Hla Oad,Molag Mar,boat,10
+Hla Oad,Vivec,boat,5
+Holamayan,Ebonheart,boat,9
+Khuul,Dagon Fel,boat,8
+Khuul,Fort Frostmoth,boat,6
+Khuul,Gnaar Mok,boat,7
+Molag Mar,Hla Oad,boat,10
+Molag Mar,Tel Branora,boat,2
+Molag Mar,Vivec,boat,4
+Raven Rock,Fort Frostmoth,boat,2
+Sadrith Mora,Dagon Fel,boat,10
+Sadrith Mora,Ebonheart,boat,11
+Sadrith Mora,Tel Branora,boat,8
+Sadrith Mora,Tel Mora,boat,5
+Tel Aruhn,Dagon Fel,boat,9
+Tel Aruhn,Tel Mora,boat,4
+Tel Aruhn,Vos,boat,4
+Tel Branora,Ebonheart,boat,6
+Tel Branora,Molag Mar,boat,2
+Tel Branora,Sadrith Mora,boat,8
+Tel Branora,Vivec,boat,5
+Tel Mora,Dagon Fel,boat,5
+Tel Mora,Sadrith Mora,boat,5
+Tel Mora,Tel Aruhn,boat,4
+Tel Mora,Vos,boat,0
+Vivec,Ebonheart,boat,1
+Vivec,Hla Oad,boat,5
+Vivec,Molag Mar,boat,4
+Vivec,Tel Branora,boat,5
+Vos,Sadrith Mora,boat,5
+Vos,Tel Aruhn,boat,4
+Vos,Tel Mora,boat,0
+Ald'ruhn,Balmora,silt_strider,4
+Ald'ruhn,Gnisis,silt_strider,4
+Ald'ruhn,Khuul,silt_strider,5
+Ald'ruhn,Maar Gan,silt_strider,2
+Balmora,Ald'ruhn,silt_strider,4
+Balmora,Seyda Neen,silt_strider,3
+Balmora,Suran,silt_strider,5
+Balmora,Vivec,silt_strider,4
+Gnisis,Ald'ruhn,silt_strider,4
+Gnisis,Khuul,silt_strider,3
+Gnisis,Maar Gan,silt_strider,4
+Gnisis,Seyda Neen,silt_strider,11
+Khuul,Ald'ruhn,silt_strider,5
+Khuul,Gnisis,silt_strider,3
+Khuul,Maar Gan,silt_strider,3
+Maar Gan,Ald'ruhn,silt_strider,2
+Maar Gan,Gnisis,silt_strider,4
+Maar Gan,Khuul,silt_strider,3
+Molag Mar,Suran,silt_strider,3
+Molag Mar,Vivec,silt_strider,4
+Seyda Neen,Balmora,silt_strider,3
+Seyda Neen,Gnisis,silt_strider,11
+Seyda Neen,Suran,silt_strider,4
+Seyda Neen,Vivec,silt_strider,2
+Suran,Balmora,silt_strider,5
+Suran,Molag Mar,silt_strider,3
+Suran,Seyda Neen,silt_strider,4
+Suran,Vivec,silt_strider,1
+Vivec,Balmora,silt_strider,4
+Vivec,Molag Mar,silt_strider,4
+Vivec,Seyda Neen,silt_strider,2
+Vivec,Suran,silt_strider,1
+Ald'ruhn,Balmora,mage_guild,0
+Ald'ruhn,Caldera,mage_guild,0
+Ald'ruhn,Sadrith Mora,mage_guild,0
+Ald'ruhn,Vivec,mage_guild,0
+Balmora,Ald'ruhn,mage_guild,0
+Balmora,Caldera,mage_guild,0
+Balmora,Sadrith Mora,mage_guild,0
+Balmora,Vivec,mage_guild,0
+Caldera,Ald'ruhn,mage_guild,0
+Caldera,Balmora,mage_guild,0
+Caldera,Sadrith Mora,mage_guild,0
+Caldera,Vivec,mage_guild,0
+Sadrith Mora,Ald'ruhn,mage_guild,0
+Sadrith Mora,Balmora,mage_guild,0
+Sadrith Mora,Caldera,mage_guild,0
+Sadrith Mora,Vivec,mage_guild,0
+Vivec,Ald'ruhn,mage_guild,0
+Vivec,Balmora,mage_guild,0
+Vivec,Caldera,mage_guild,0
+Vivec,Sadrith Mora,mage_guild,0
+Andasreth,Berandas,propylon,0
+Andasreth,Hlormaren,propylon,0
+Berandas,Andasreth,propylon,0
+Berandas,Falasmaryon,propylon,0
+Falasmaryon,Berandas,propylon,0
+Falasmaryon,Valenvaryon,propylon,0
+Falensarano,Indoranyon,propylon,0
+Falensarano,Telasero,propylon,0
+Hlormaren,Andasreth,propylon,0
+Hlormaren,Marandus,propylon,0
+Indoranyon,Falensarano,propylon,0
+Indoranyon,Rotheran,propylon,0
+Marandus,Hlormaren,propylon,0
+Marandus,Telasero,propylon,0
+Rotheran,Indoranyon,propylon,0
+Rotheran,Valenvaryon,propylon,0
+Telasero,Falensarano,propylon,0
+Telasero,Marandus,propylon,0
+Valenvaryon,Falasmaryon,propylon,0
+Valenvaryon,Rotheran,propylon,0
+Andasreth,Caldera,special,0
+Berandas,Caldera,special,0
+Caldera,Andasreth,special,0
+Caldera,Berandas,special,0
+Caldera,Falasmaryon,special,0
+Caldera,Falensarano,special,0
+Caldera,Hlormaren,special,0
+Caldera,Indoranyon,special,0
+Caldera,Marandus,special,0
+Caldera,Rotheran,special,0
+Caldera,Telasero,special,0
+Caldera,Valenvaryon,special,0
+Ebonheart,Mournhold,special,0
+Falasmaryon,Caldera,special,0
+Falensarano,Caldera,special,0
+Hlormaren,Caldera,special,0
+Indoranyon,Caldera,special,0
+Marandus,Caldera,special,0
+Mournhold,Ebonheart,special,0
+Rotheran,Caldera,special,0
+Telasero,Caldera,special,0
+Valenvaryon,Caldera,special,0

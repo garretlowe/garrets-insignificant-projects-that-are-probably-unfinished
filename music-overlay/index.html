@@ -1,0 +1,28 @@
+<!--Garret Lowe 2022-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<title>Music Overlay</title>
+  
+  <style>
+    #box-container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+	</head>
+<!-- TODO grid within grid 1x3, 2x1 in middle https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+	<body>
+    <div id="box-container">
+      <canvas id="box">
+        <div id="box-text"></div>
+      </canvas>
+    </div>
+    
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+		<script type='module' src="./index.js"></script>
+	</body>
+</html>

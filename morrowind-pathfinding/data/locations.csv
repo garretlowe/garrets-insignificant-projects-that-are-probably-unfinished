@@ -1,0 +1,51 @@
+id,location_type,has_road,has_boat,has_strider,has_guild,has_propylon,special
+Ald'ruhn,city,true,false,true,true,false,false
+Balmora,city,true,false,true,true,false,false
+Mournhold,city,false,false,false,false,false,true
+Sadrith Mora,city,true,true,false,true,false,false
+Vivec,city,true,true,true,true,false,false
+Ald Velothi,town,true,false,false,false,false,false
+Caldera,town,true,false,false,true,true,true
+Dagon Fel,town,true,true,false,false,false,false
+Gnaar Mok,town,true,true,false,false,false,false
+Gnisis,town,true,false,true,false,false,false
+Hla Oad,town,true,true,false,false,false,false
+Khuul,town,true,true,true,false,false,false
+Maar Gan,town,true,false,true,false,false,false
+Molag Mar,town,true,true,true,false,false,false
+Pelagiad,town,true,false,false,false,false,false
+Raven Rock,town,true,true,false,false,false,false
+Seyda Neen,town,true,false,true,false,false,false
+Skaal Village,town,true,false,false,false,false,false
+Suran,town,true,false,true,false,false,false
+Tel Aruhn,town,true,true,false,false,false,false
+Tel Branora,town,true,true,false,false,false,false
+Tel Fyr,town,true,false,false,false,false,false
+Tel Mora,town,true,true,false,false,false,false
+Tel Vos,town,true,true,false,false,false,false
+Vos,town,true,true,false,false,false,false
+Indarys Manor,house_stronghold,true,false,false,false,false,false
+Rethan Manor,house_stronghold,true,false,false,false,false,false
+Tel Uvirith,house_stronghold,true,false,false,false,false,false
+Buckmoth Legion Fort,imperial_fort,true,false,false,false,false,false
+Ebonheart,imperial_fort,true,true,false,false,false,true
+Fort Firemoth,imperial_fort,true,false,false,false,false,false
+Moonmoth Imperial Fort,imperial_fort,true,false,false,false,false,false
+Wolverine Hall,imperial_fort,true,false,false,false,false,false
+Fort Frostmoth,imperial_fort,true,true,false,false,false,false
+Ahemmusa Camp,major_camp,true,false,false,false,false,false
+Erabenimsun Camp,major_camp,true,false,false,false,false,false
+Urshilaku Camp,major_camp,true,false,false,false,false,false
+Zainab Camp,major_camp,true,false,false,false,false,false
+Andasreth,dunmer_stronghold,true,false,false,false,true,true
+Berandas,dunmer_stronghold,true,false,false,false,true,true
+Falasmaryon,dunmer_stronghold,true,false,false,false,true,true
+Falensarano,dunmer_stronghold,true,false,false,false,true,true
+Hlormaren,dunmer_stronghold,true,false,false,false,true,true
+Indoranyon,dunmer_stronghold,true,false,false,false,true,true
+Kogoruhn,dunmer_stronghold,true,false,false,false,false,false
+Marandus,dunmer_stronghold,true,false,false,false,true,true
+Rotheran,dunmer_stronghold,true,false,false,false,true,true
+Telasero,dunmer_stronghold,true,false,false,false,true,true
+Valenvaryon,dunmer_stronghold,true,false,false,false,true,true
+Holamayan,temple,true,true,false,false,false,false

@@ -1,0 +1,681 @@
+{
+  "road": {},
+  "boat": {
+    "Dagon Fel": {
+      "Khuul": {
+        "travel_time": 8,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 10,
+        "gold_cost": 0
+      },
+      "Tel Aruhn": {
+        "travel_time": 9,
+        "gold_cost": 0
+      },
+      "Tel Mora": {
+        "travel_time": 5,
+        "gold_cost": 0
+      }
+    },
+    "Ebonheart": {
+      "Hla Oad": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Holamayan": {
+        "travel_time": 9,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 11,
+        "gold_cost": 0
+      },
+      "Tel Branora": {
+        "travel_time": 6,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 1,
+        "gold_cost": 0
+      }
+    },
+    "Fort Frostmoth": {
+      "Khuul": {
+        "travel_time": 6,
+        "gold_cost": 0
+      },
+      "Raven Rock": {
+        "travel_time": 2,
+        "gold_cost": 0
+      }
+    },
+    "Gnaar Mok": {
+      "Hla Oad": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Khuul": {
+        "travel_time": 7,
+        "gold_cost": 0
+      }
+    },
+    "Hla Oad": {
+      "Ebonheart": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Gnaar Mok": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Molag Mar": {
+        "travel_time": 10,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 5,
+        "gold_cost": 0
+      }
+    },
+    "Holamayan": {
+      "Ebonheart": {
+        "travel_time": 9,
+        "gold_cost": 0
+      }
+    },
+    "Khuul": {
+      "Dagon Fel": {
+        "travel_time": 8,
+        "gold_cost": 0
+      },
+      "Fort Frostmoth": {
+        "travel_time": 6,
+        "gold_cost": 0
+      },
+      "Gnaar Mok": {
+        "travel_time": 7,
+        "gold_cost": 0
+      }
+    },
+    "Molag Mar": {
+      "Hla Oad": {
+        "travel_time": 10,
+        "gold_cost": 0
+      },
+      "Tel Branora": {
+        "travel_time": 2,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 4,
+        "gold_cost": 0
+      }
+    },
+    "Raven Rock": {
+      "Fort Frostmoth": {
+        "travel_time": 2,
+        "gold_cost": 0
+      }
+    },
+    "Sadrith Mora": {
+      "Dagon Fel": {
+        "travel_time": 10,
+        "gold_cost": 0
+      },
+      "Ebonheart": {
+        "travel_time": 11,
+        "gold_cost": 0
+      },
+      "Tel Branora": {
+        "travel_time": 8,
+        "gold_cost": 0
+      },
+      "Tel Mora": {
+        "travel_time": 5,
+        "gold_cost": 0
+      }
+    },
+    "Tel Aruhn": {
+      "Dagon Fel": {
+        "travel_time": 9,
+        "gold_cost": 0
+      },
+      "Tel Mora": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Vos": {
+        "travel_time": 4,
+        "gold_cost": 0
+      }
+    },
+    "Tel Branora": {
+      "Ebonheart": {
+        "travel_time": 6,
+        "gold_cost": 0
+      },
+      "Molag Mar": {
+        "travel_time": 2,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 8,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 5,
+        "gold_cost": 0
+      }
+    },
+    "Tel Mora": {
+      "Dagon Fel": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Tel Aruhn": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Vos": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Vivec": {
+      "Ebonheart": {
+        "travel_time": 1,
+        "gold_cost": 0
+      },
+      "Hla Oad": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Molag Mar": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Tel Branora": {
+        "travel_time": 5,
+        "gold_cost": 0
+      }
+    },
+    "Vos": {
+      "Sadrith Mora": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Tel Aruhn": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Tel Mora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    }
+  },
+  "silt_strider": {
+    "Ald'ruhn": {
+      "Balmora": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Gnisis": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Khuul": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Maar Gan": {
+        "travel_time": 2,
+        "gold_cost": 0
+      }
+    },
+    "Balmora": {
+      "Ald'ruhn": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Seyda Neen": {
+        "travel_time": 3,
+        "gold_cost": 0
+      },
+      "Suran": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 4,
+        "gold_cost": 0
+      }
+    },
+    "Gnisis": {
+      "Ald'ruhn": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Khuul": {
+        "travel_time": 3,
+        "gold_cost": 0
+      },
+      "Maar Gan": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Seyda Neen": {
+        "travel_time": 11,
+        "gold_cost": 0
+      }
+    },
+    "Khuul": {
+      "Ald'ruhn": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Gnisis": {
+        "travel_time": 3,
+        "gold_cost": 0
+      },
+      "Maar Gan": {
+        "travel_time": 3,
+        "gold_cost": 0
+      }
+    },
+    "Maar Gan": {
+      "Ald'ruhn": {
+        "travel_time": 2,
+        "gold_cost": 0
+      },
+      "Gnisis": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Khuul": {
+        "travel_time": 3,
+        "gold_cost": 0
+      }
+    },
+    "Molag Mar": {
+      "Suran": {
+        "travel_time": 3,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 4,
+        "gold_cost": 0
+      }
+    },
+    "Seyda Neen": {
+      "Balmora": {
+        "travel_time": 3,
+        "gold_cost": 0
+      },
+      "Gnisis": {
+        "travel_time": 11,
+        "gold_cost": 0
+      },
+      "Suran": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 2,
+        "gold_cost": 0
+      }
+    },
+    "Suran": {
+      "Balmora": {
+        "travel_time": 5,
+        "gold_cost": 0
+      },
+      "Molag Mar": {
+        "travel_time": 3,
+        "gold_cost": 0
+      },
+      "Seyda Neen": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 1,
+        "gold_cost": 0
+      }
+    },
+    "Vivec": {
+      "Balmora": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Molag Mar": {
+        "travel_time": 4,
+        "gold_cost": 0
+      },
+      "Seyda Neen": {
+        "travel_time": 2,
+        "gold_cost": 0
+      },
+      "Suran": {
+        "travel_time": 1,
+        "gold_cost": 0
+      }
+    }
+  },
+  "mage_guild": {
+    "Ald'ruhn": {
+      "Balmora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Balmora": {
+      "Ald'ruhn": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Caldera": {
+      "Ald'ruhn": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Balmora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Sadrith Mora": {
+      "Ald'ruhn": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Balmora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Vivec": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Vivec": {
+      "Ald'ruhn": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Balmora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Sadrith Mora": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    }
+  },
+  "propylon": {
+    "Andasreth": {
+      "Berandas": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Hlormaren": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Berandas": {
+      "Andasreth": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Falasmaryon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Falasmaryon": {
+      "Berandas": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Valenvaryon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Falensarano": {
+      "Indoranyon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Telasero": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Hlormaren": {
+      "Andasreth": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Marandus": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Indoranyon": {
+      "Falensarano": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Rotheran": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Marandus": {
+      "Hlormaren": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Telasero": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Rotheran": {
+      "Indoranyon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Valenvaryon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Telasero": {
+      "Falensarano": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Marandus": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Valenvaryon": {
+      "Falasmaryon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Rotheran": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    }
+  },
+  "special": {
+    "Andasreth": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Berandas": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Caldera": {
+      "Andasreth": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Berandas": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Falasmaryon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Falensarano": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Hlormaren": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Indoranyon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Marandus": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Rotheran": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Telasero": {
+        "travel_time": 0,
+        "gold_cost": 0
+      },
+      "Valenvaryon": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Ebonheart": {
+      "Mournhold": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Falasmaryon": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Falensarano": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Hlormaren": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Indoranyon": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Marandus": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Mournhold": {
+      "Ebonheart": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Rotheran": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Telasero": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    },
+    "Valenvaryon": {
+      "Caldera": {
+        "travel_time": 0,
+        "gold_cost": 0
+      }
+    }
+  }
+}

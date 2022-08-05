@@ -1,4 +1,4 @@
-# Music Overlay | Date | On Hold
+# Music Overlay | May 2022 | On Hold
 
 Created as a simple and generalized music overlay for streamers with a customizeable size and colour scheme. Currently does not connect to any music players.
 

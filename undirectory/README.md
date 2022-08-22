@@ -1,6 +1,6 @@
 # Undirectory | July 2022 | Completed
 
-Takes a degnated directory and recurses through each folder, moving files into the main directory and deleting sub directories in the process.
+Takes a designated directory and recurses through each folder, moving files into the main directory and deleting sub directories in the process.
 
 ### How To Use
 

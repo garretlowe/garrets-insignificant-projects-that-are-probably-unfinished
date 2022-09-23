@@ -9,8 +9,15 @@ INFO_LEVEL = 1
 WARN_LEVEL = 2
 ERROR_LEVEL = 3
 
+SB_ONLY = [
+    'Astalos', 'Aurora Somnacanth', 'Blood Orange Bishaten', 'Daimyo Hermitaur',
+    'Espinas', 'Furious Rajang', 'Gaismagorm', 'Gold Rathian',
+    'Gore Magala', 'Lucent Nargacuga', 'Magma Almudron', 'Malzeno',
+    'Pyre Raknba-Kadaki', 'Scorned Magnamalo', 'Seething Bazelgeuse', 'Seregios',
+    'Shagaru Magala', 'Shogun Ceanataur', 'Silver Rathalos'
+]
 
-def format_monster(mon_page):
+def format_monster(mon_page, master=False):
 
     def format_list(row_names=[]):
         for row_name in row_names:
@@ -167,6 +174,10 @@ def format_monster(mon_page):
         ).strip()[len(ailment['name']):].replace(' ', '')
         ailments.append(ailment)
 
+    if not master and len(low_rank_mats) == 0 and len(high_rank_mats) == 0:
+        return None
+    elif master and len(master_rank_mats) == 0:
+        return None
     text = f"""
 [b]Class: [/b]{mon_class}
 [b]Threat Level: [/b]{threat}
@@ -253,7 +264,7 @@ def format_monster(mon_page):
     [td]{ailment['rating']}[/td]
   [/tr]\n"""
 
-    if len(low_rank_mats) > 0:
+    if not master and len(low_rank_mats) > 0:
         text += """[/table]
 
 [h1]Low Rank Materials[/h1]
@@ -277,7 +288,7 @@ def format_monster(mon_page):
 		[td]{material['dropped']}[/td]
 	  [/tr]\n"""
 
-    if len(high_rank_mats) > 0:
+    if not master and len(high_rank_mats) > 0:
         text += """[/table]
 
 [h1]High Rank Materials[/h1]
@@ -301,7 +312,7 @@ def format_monster(mon_page):
     [td]{material['dropped']}[/td]
   [/tr]\n"""
 
-    if len(master_rank_mats) > 0:
+    if master and len(master_rank_mats) > 0:
         text += """[/table]
 
 [h1]Master Rank Materials[/h1]
@@ -356,6 +367,8 @@ apex_monsters = sorted(apex_monsters, key=lambda monster: monster['name'])
 if DEBUG_LEVEL >= INFO_LEVEL:
     print('\n==========================\nScraping Large Monster Info\n==========================')
 for monster in large_monsters:
+    if monster['name'] in SB_ONLY:
+        continue
     if DEBUG_LEVEL >= INFO_LEVEL:
         print(f'\nINFO: Scraping "{monster["name"]}".')
     mon_page = lxml.html.fromstring(requests.get(monster['url']).text)
@@ -365,8 +378,10 @@ for monster in large_monsters:
         continue
 
     pathlib.Path('./Large Monsters/').mkdir(exist_ok=True)
-    with open(f"./Large Monsters/{monster['name']}.bb", 'w', encoding='utf-8') as file:
-        file.write(format_monster(mon_page))
+    mon_data = format_monster(mon_page)
+    if mon_data:
+        with open(f"./Large Monsters/{monster['name']}.bb", 'w', encoding='utf-8') as file:
+            file.write(mon_data)
 
 if DEBUG_LEVEL >= INFO_LEVEL:
     print('\n==========================\nScraping Apex Monster Info\n==========================')
@@ -380,5 +395,24 @@ for monster in apex_monsters:
         continue
 
     pathlib.Path('./Apex Monsters/').mkdir(exist_ok=True)
-    with open(f"./Apex Monsters/{monster['name']}.bb", 'w', encoding='utf-8') as file:
-        file.write(format_monster(mon_page))
+    mon_data = format_monster(mon_page)
+    if mon_data:
+        with open(f"./Apex Monsters/{monster['name']}.bb", 'w', encoding='utf-8') as file:
+            file.write(mon_data)
+        
+if DEBUG_LEVEL >= INFO_LEVEL:
+    print('\n==========================\nScraping Master Monster Info\n==========================')
+for monster in large_monsters:
+    if DEBUG_LEVEL >= INFO_LEVEL:
+        print(f'\nINFO: Scraping "{monster["name"]}".')
+    mon_page = lxml.html.fromstring(requests.get(monster['url']).text)
+    if mon_page.xpath('//*[@id="WikiContent"]/div[1]/h1/strong'):
+        if DEBUG_LEVEL >= WARN_LEVEL:
+            print('WARN: Page load error. Monster skipped.')
+        continue
+
+    pathlib.Path('./Master Monsters/').mkdir(exist_ok=True)
+    mon_data = format_monster(mon_page, True)
+    if mon_data:
+        with open(f"./Master Monsters/{monster['name']}.bb", 'w', encoding='utf-8') as file:
+            file.write(mon_data)

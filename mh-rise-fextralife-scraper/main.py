@@ -353,12 +353,11 @@ large_monsters = sorted(large_monsters, key=lambda monster: monster['name'])
 apex_monsters = sorted(apex_monsters, key=lambda monster: monster['name'])
 
 # Iterate through monsters and output bb code for each
-
 if DEBUG_LEVEL >= INFO_LEVEL:
     print('\n==========================\nScraping Large Monster Info\n==========================')
 for monster in large_monsters:
     if DEBUG_LEVEL >= INFO_LEVEL:
-        print(f'\nINFO: Scraping {monster["name"]}')
+        print(f'\nINFO: Scraping "{monster["name"]}".')
     mon_page = lxml.html.fromstring(requests.get(monster['url']).text)
     if mon_page.xpath('//*[@id="WikiContent"]/div[1]/h1/strong'):
         if DEBUG_LEVEL >= WARN_LEVEL:
@@ -373,7 +372,7 @@ if DEBUG_LEVEL >= INFO_LEVEL:
     print('\n==========================\nScraping Apex Monster Info\n==========================')
 for monster in apex_monsters:
     if DEBUG_LEVEL >= INFO_LEVEL:
-        print(f'\nINFO: Scraping {monster["name"]}')
+        print(f'\nINFO: Scraping "{monster["name"]}".')
     mon_page = lxml.html.fromstring(requests.get(monster['url']).text)
     if mon_page.xpath('//*[@id="WikiContent"]/div[1]/h1/strong'):
         if DEBUG_LEVEL >= WARN_LEVEL:

@@ -6,13 +6,13 @@ The script first scrapes the names and addresses for every large monster posted 
 
 ### Ideas To Improve
 
-Split the Master rank monsters into separate files from the High/Low rank monsters.
+Fix bugs :)
 
 ### How To Use
 
 Run the program via CLI: `py ./main.py`.
 
-BBCode formatted output will be saved to a folders: `./Large Monsters/` and `./Apex Monsters/`.
+BBCode formatted output will be saved to a folders: `./Large Monsters/`, `./Apex Monsters/`, and `./Master Monsters/`.
 
 ### Learning Outcomes
 

@@ -178,6 +178,26 @@ def format_monster(mon_page, master=False):
         return None
     elif master and len(master_rank_mats) == 0:
         return None
+
+    if master:
+        SEVERING_ICON = '[previewimg=29117189;sizeOriginal,floatLeft;severing.png]Severing Damage[/previewimg]'
+        BLUNT_ICON = '[previewimg=29117185;sizeOriginal,floatLeft;blunt.png]Blunt Damage[/previewimg]'
+        PROJECTILE_ICON = '[previewimg=29117188;sizeOriginal,floatLeft;projectile.png]Projectile Damage[/previewimg]'
+        FIRE_ICON = '[previewimg=29117192;sizeOriginal,floatLeft;fire.png]Fire[/previewimg]'
+        WATER_ICON = '[previewimg=29117195;sizeOriginal,floatLeft;water.png]Water[/previewimg]'
+        THUNDER_ICON = '[previewimg=29117194;sizeOriginal,floatLeft;thunder.png]Thunder[/previewimg]'
+        ICE_ICON = '[previewimg=29117193;sizeOriginal,floatLeft;ice.png]Ice[/previewimg]'
+        DRAGON_ICON = '[previewimg=29117190;sizeOriginal,floatLeft;dragon.png]Dragon[/previewimg]'
+    else:
+        SEVERING_ICON = '[previewimg=26276201;sizeOriginal,floatLeft;severing.png]Severing Damage[/previewimg]'
+        BLUNT_ICON = '[previewimg=26276197;sizeOriginal,floatLeft;blunt.png]Blunt Damage[/previewimg]'
+        PROJECTILE_ICON = '[previewimg=26276199;sizeOriginal,floatLeft;projectile.png]Projectile Damage[/previewimg]'
+        FIRE_ICON = '[previewimg=26276209;sizeOriginal,floatLeft;fire.png]Fire[/previewimg]'
+        WATER_ICON = '[previewimg=26276210;sizeOriginal,floatLeft;water.png]Water[/previewimg]'
+        THUNDER_ICON = '[previewimg=26276212;sizeOriginal,floatLeft;thunder.png]Thunder[/previewimg]'
+        ICE_ICON = '[previewimg=26276213;sizeOriginal,floatLeft;ice.png]Ice[/previewimg]'
+        DRAGON_ICON = '[previewimg=26276215;sizeOriginal,floatLeft;dragon.png]Dragon[/previewimg]'
+
     text = f"""
 [b]Class: [/b]{mon_class}
 [b]Threat Level: [/b]{threat}
@@ -213,9 +233,9 @@ def format_monster(mon_page, master=False):
 [table]
   [tr]
     [th]Body Part[/th]
-    [th][previewimg=26276201;sizeOriginal,floatLeft;severing.png]Severing Damage[/previewimg][/th]
-    [th][previewimg=26276197;sizeOriginal,floatLeft;blunt.png]Blunt Damage[/previewimg][/th]
-    [th][previewimg=26276199;sizeOriginal,floatLeft;projectile.png]Projectile Damage[/previewimg][/th]
+    [th]{SEVERING_ICON}[/th]
+    [th]{BLUNT_ICON}[/th]
+    [th]{PROJECTILE_ICON}[/th]
   [/tr]\n"""
 
     for part in parts:
@@ -226,17 +246,17 @@ def format_monster(mon_page, master=False):
     [td]{part['wep_weaknesses']['projectile']}[/td]
   [/tr]\n"""
 
-    text += """[/table]
+    text += f"""[/table]
 
 [b]Elemental[/b]
 [table]
   [tr]
     [th]Body Part[/th]
-    [th][previewimg=26276209;sizeOriginal,floatLeft;fire.png]Fire[/previewimg][/th]
-    [th][previewimg=26276210;sizeOriginal,floatLeft;water.png]Water[/previewimg][/th]
-    [th][previewimg=26276212;sizeOriginal,floatLeft;thunder.png]Thunder[/previewimg][/th]
-    [th][previewimg=26276213;sizeOriginal,floatLeft;ice.png]Ice[/previewimg][/th]
-    [th][previewimg=26276215;sizeOriginal,floatLeft;dragon.png]Dragon[/previewimg][/th]
+    [th]{FIRE_ICON}[/th]
+    [th]{WATER_ICON}[/th]
+    [th]{THUNDER_ICON}[/th]
+    [th]{ICE_ICON}[/th]
+    [th]{DRAGON_ICON}[/th]
   [/tr]\n"""
 
     for part in parts:

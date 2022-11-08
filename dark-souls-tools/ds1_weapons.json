@@ -39,6 +39,7 @@
 		"weight": 0.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -223,6 +224,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -269,6 +271,7 @@
 		"weight": 5.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -315,6 +318,7 @@
 		"weight": 5.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -361,6 +365,7 @@
 		"weight": 3.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -407,6 +412,7 @@
 		"weight": 4.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -453,6 +459,7 @@
 		"weight": 4.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -499,6 +506,7 @@
 		"weight": 5.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -545,6 +553,7 @@
 		"weight": 4.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -591,6 +600,7 @@
 		"weight": 3.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -637,6 +647,7 @@
 		"weight": 22.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -683,6 +694,7 @@
 		"weight": 18.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": true,
@@ -729,6 +741,7 @@
 		"weight": 24.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -775,6 +788,7 @@
 		"weight": 12.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -821,6 +835,7 @@
 		"weight": 11.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -867,6 +882,7 @@
 		"weight": 28.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -913,6 +929,7 @@
 		"weight": 4.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -959,6 +976,7 @@
 		"weight": 10.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1005,6 +1023,7 @@
 		"weight": 7.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -1051,6 +1070,7 @@
 		"weight": 5.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1097,6 +1117,7 @@
 		"weight": 16.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -1143,6 +1164,7 @@
 		"weight": 2.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1189,6 +1211,7 @@
 		"weight": 16.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -1235,6 +1258,7 @@
 		"weight": 22.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1281,6 +1305,7 @@
 		"weight": 24.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": true,
@@ -1327,6 +1352,7 @@
 		"weight": 14.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1373,6 +1399,7 @@
 		"weight": 24.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -1419,6 +1446,7 @@
 		"weight": 1.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1465,6 +1493,7 @@
 		"weight": 0.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1511,6 +1540,7 @@
 		"weight": 1.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -1557,6 +1587,7 @@
 		"weight": 0.5,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -1603,6 +1634,7 @@
 		"weight": 0.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1649,6 +1681,7 @@
 		"weight": 1.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": true,
@@ -1695,6 +1728,7 @@
 		"weight": 3.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1741,6 +1775,7 @@
 		"weight": 0.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1787,6 +1822,7 @@
 		"weight": 1.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1833,6 +1869,7 @@
 		"weight": 2.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -1879,6 +1916,7 @@
 		"weight": 2.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -1925,6 +1963,7 @@
 		"weight": 3.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -1971,6 +2010,7 @@
 		"weight": 3.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2017,6 +2057,7 @@
 		"weight": 3.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2063,6 +2104,7 @@
 		"weight": 3.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2109,6 +2151,7 @@
 		"weight": 2.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2155,6 +2198,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2201,6 +2245,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2247,6 +2292,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": true,
@@ -2293,6 +2339,7 @@
 		"weight": 3.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2339,6 +2386,7 @@
 		"weight": 2.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2385,6 +2433,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -2431,6 +2480,7 @@
 		"weight": 1.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2477,6 +2527,7 @@
 		"weight": 4.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2523,6 +2574,7 @@
 		"weight": 9.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -2569,6 +2621,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2615,6 +2668,7 @@
 		"weight": 8.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -2661,6 +2715,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2707,6 +2762,7 @@
 		"weight": 8.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2753,6 +2809,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2799,6 +2856,7 @@
 		"weight": 8.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -2845,6 +2903,7 @@
 		"weight": 10.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -2891,6 +2950,7 @@
 		"weight": 10.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -2937,6 +2997,7 @@
 		"weight": 10.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -2983,6 +3044,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": true,
@@ -3029,6 +3091,7 @@
 		"weight": 8.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": true,
@@ -3075,6 +3138,7 @@
 		"weight": 18.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -3121,6 +3185,7 @@
 		"weight": 14.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -3167,6 +3232,7 @@
 		"weight": 18.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3213,6 +3279,7 @@
 		"weight": 24.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": true,
@@ -3259,6 +3326,7 @@
 		"weight": 12.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3305,6 +3373,7 @@
 		"weight": 10.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3351,6 +3420,7 @@
 		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -3397,6 +3467,7 @@
 		"weight": 5.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3443,6 +3514,7 @@
 		"weight": 5.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3489,6 +3561,7 @@
 		"weight": 8.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3535,6 +3608,7 @@
 		"weight": 2.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3581,6 +3655,7 @@
 		"weight": 2.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -3627,6 +3702,7 @@
 		"weight": 1.5,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": true,
 			"demon": false,
 			"dragon": false,
@@ -3673,6 +3749,7 @@
 		"weight": 1.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3719,6 +3796,7 @@
 		"weight": 3.5,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -3765,6 +3843,7 @@
 		"weight": 1.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3811,6 +3890,7 @@
 		"weight": 2.5,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3857,6 +3937,7 @@
 		"weight": 10.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": true,
 			"dragon": false,
@@ -3903,6 +3984,7 @@
 		"weight": 12.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3949,6 +4031,7 @@
 		"weight": 10.0,
 		"upgrade_type": {
 			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -3957,32 +4040,32 @@
 	},
 	{
 		"name": "Channeler's Trident",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
-			"magic": 0,
+			"physical": 70,
+			"magic": 115,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "B",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
-			"intelligence": 0,
+			"strength": 16,
+			"dexterity": 16,
+			"intelligence": 24,
 			"faith": 0
 		},
 		"aux_effects": {
@@ -3991,11 +4074,12 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 240,
+		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
-			"unique": false,
+			"reduced": false,
+			"unique": true,
 			"demon": false,
 			"dragon": false,
 			"none": false
@@ -4003,31 +4087,31 @@
 	},
 	{
 		"name": "Demon's Spear",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 100,
 			"magic": 0,
 			"fire": 0,
-			"lightning": 0,
+			"lightning": 120,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 12,
+			"dexterity": 10,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4037,43 +4121,44 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 400,
+		"weight": 4.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
-			"demon": false,
+			"demon": true,
 			"dragon": false,
 			"none": false
 		}
 	},
 	{
 		"name": "Dragonslayer Spear",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 95,
 			"magic": 0,
 			"fire": 0,
-			"lightning": 0,
+			"lightning": 65,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "C",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "B"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 24,
+			"dexterity": 24,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4083,43 +4168,44 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 300,
+		"weight": 10.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
-			"demon": false,
+			"demon": true,
 			"dragon": false,
 			"none": false
 		}
 	},
 	{
 		"name": "Four-Pronged Plow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 75,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 15,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4129,10 +4215,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 300,
+		"weight": 5.5,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4141,32 +4228,32 @@
 	},
 	{
 		"name": "Moonlight Butterfly Horn",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
 			"physical": 0,
-			"magic": 0,
+			"magic": 120,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "B",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
+			"strength": 12,
 			"dexterity": 0,
-			"intelligence": 0,
+			"intelligence": 14,
 			"faith": 0
 		},
 		"aux_effects": {
@@ -4175,43 +4262,44 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 160,
+		"weight": 4.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
-			"demon": false,
+			"demon": true,
 			"dragon": false,
 			"none": false
 		}
 	},
 	{
 		"name": "Partizan",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 80,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 13,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4221,10 +4309,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 160,
+		"weight": 4.5,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4233,31 +4322,31 @@
 	},
 	{
 		"name": "Pike",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical":86,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 24,
+			"dexterity": 10,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4267,10 +4356,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 180,
+		"weight": 10.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4279,45 +4369,46 @@
 	},
 	{
 		"name": "Silver Knight Spear",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 163,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 16,
+			"dexterity": 22,
 			"intelligence": 0,
 			"faith": 0
 		},
 		"aux_effects": {
 			"bleed": 0,
 			"poison": 0,
-			"divine": 0,
+			"divine": 110,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 300,
+		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
-			"unique": false,
+			"reduced": false,
+			"unique": true,
 			"demon": false,
 			"dragon": false,
 			"none": false
@@ -4325,31 +4416,31 @@
 	},
 	{
 		"name": "Spear",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 80,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 11,
+			"dexterity": 10,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4359,10 +4450,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 180,
+		"weight": 3.5,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4371,31 +4463,31 @@
 	},
 	{
 		"name": "Winged Spear",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Spear",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 86,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 13,
+			"dexterity": 15,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4405,10 +4497,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 140,
+		"weight": 4.5,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4417,31 +4510,31 @@
 	},
 	{
 		"name": "Black Knight Halberd",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Slash"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 245,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "E",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 32,
+			"dexterity": 18,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4451,11 +4544,12 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 300,
+		"weight": 14.0,
 		"upgrade_type": {
 			"standard": false,
-			"unique": false,
+			"reduced": false,
+			"unique": true,
 			"demon": false,
 			"dragon": false,
 			"none": false
@@ -4463,31 +4557,31 @@
 	},
 	{
 		"name": "Gargoyle's Halberd",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 115,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 16,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4497,10 +4591,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 200,
+		"weight": 6.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4509,31 +4604,31 @@
 	},
 	{
 		"name": "Giant's Halberd",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 140,
 			"magic": 0,
 			"fire": 0,
-			"lightning": 0,
+			"lightning": 135,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 36,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4543,11 +4638,12 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 300,
+		"weight": 16.0,
 		"upgrade_type": {
 			"standard": false,
-			"unique": false,
+			"reduced": false,
+			"unique": true,
 			"demon": false,
 			"dragon": false,
 			"none": false
@@ -4555,44 +4651,45 @@
 	},
 	{
 		"name": "Great Scythe",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Slash"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 100,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 22
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 14,
+			"dexterity": 14,
 			"intelligence": 0,
 			"faith": 0
 		},
 		"aux_effects": {
-			"bleed": 0,
+			"bleed": 300,
 			"poison": 0,
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 130,
+		"weight": 5.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4601,31 +4698,31 @@
 	},
 	{
 		"name": "Halberd",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular", "Thrust"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 110,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 16,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4635,10 +4732,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 200,
+		"weight": 6.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4647,77 +4745,78 @@
 	},
 	{
 		"name": "Lifehunt Scythe",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 180,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 22
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 16,
+			"dexterity": 14,
 			"intelligence": 0,
 			"faith": 0
 		},
 		"aux_effects": {
-			"bleed": 0,
+			"bleed": 500,
 			"poison": 0,
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 100,
+		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
-			"demon": false,
+			"demon": true,
 			"dragon": false,
 			"none": false
 		}
 	},
 	{
 		"name": "Lucerne",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 110,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 15,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4727,10 +4826,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 200,
+		"weight": 5.5,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4739,31 +4839,31 @@
 	},
 	{
 		"name": "Scythe",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Slash"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 110,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 14,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4773,10 +4873,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 150,
+		"weight": 5.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4785,31 +4886,31 @@
 	},
 	{
 		"name": "Titanite Catch Pole",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular"],
+		"weapon_type": "Halberd",
 		"attack_rating": {
-			"physical": 0,
-			"magic": 0,
+			"physical": 125,
+			"magic": 145,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 40,
+			"magic": 10,
+			"fire": 30,
+			"lightning": 30,
+			"stability": 26
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "D",
+			"intelligence": "D",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 16,
+			"dexterity": 14,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4819,11 +4920,12 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 600,
+		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
-			"unique": false,
+			"reduced": false,
+			"unique": true,
 			"demon": false,
 			"dragon": false,
 			"none": false
@@ -4831,10 +4933,12 @@
 	},
 	{
 		"name": "Black Bow of Pharis",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Bow",
+		"range": 65,
+		"dist_rate": 30,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 34,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -4848,14 +4952,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "S",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 9,
+			"dexterity": 18,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4865,10 +4969,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 100,
+		"weight": 1.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4877,10 +4982,12 @@
 	},
 	{
 		"name": "Composite Bow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Bow",
+		"range": 38,
+		"dist_rate": -24,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 55,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -4894,14 +5001,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 11,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -4911,10 +5018,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 100,
+		"weight": 1.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -4923,11 +5031,13 @@
 	},
 	{
 		"name": "Darkmoon Bow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Bow",
+		"range": 50,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
-			"magic": 0,
+			"physical": 85,
+			"magic": 85,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
@@ -4940,16 +5050,16 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "E",
+			"dexterity": "D",
+			"intelligence": "-",
+			"faith": "D"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 7,
+			"dexterity": 16,
 			"intelligence": 0,
-			"faith": 0
+			"faith": 16
 		},
 		"aux_effects": {
 			"bleed": 0,
@@ -4957,22 +5067,25 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 400,
+		"weight": 1.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
-			"demon": false,
+			"demon": true,
 			"dragon": false,
 			"none": false
 		}
 	},
 	{
 		"name": "Longbow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Bow",
+		"range": 50,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 36,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -4986,14 +5099,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "A",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 9,
+			"dexterity": 14,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5003,10 +5116,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 100,
+		"weight": 1.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5015,10 +5129,12 @@
 	},
 	{
 		"name": "Short Bow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Bow",
+		"range": 50,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 31,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -5032,14 +5148,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "D",
+			"dexterity": "A",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 10,
+			"dexterity": 12,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5049,10 +5165,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 100,
+		"weight": 0.5,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5061,10 +5178,12 @@
 	},
 	{
 		"name": "Avelyn",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Crossbow",
+		"range": 50,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 37,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -5078,14 +5197,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 16,
+			"dexterity": 14,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5095,10 +5214,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 150,
+		"weight": 6.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": true,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5107,10 +5227,12 @@
 	},
 	{
 		"name": "Heavy Crossbow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Crossbow",
+		"range": 50,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 55,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -5124,14 +5246,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 14,
+			"dexterity": 8,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5141,10 +5263,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 150,
+		"weight": 5.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": true,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5153,10 +5276,12 @@
 	},
 	{
 		"name": "Light Crossbow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Crossbow",
+		"range": 50,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 50,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -5170,14 +5295,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 10,
+			"dexterity": 8,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5187,10 +5312,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 150,
+		"weight": 3.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": true,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5199,10 +5325,12 @@
 	},
 	{
 		"name": "Sniper Crossbow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Crossbow",
+		"range": 70,
+		"dist_rate": 40,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 52,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -5216,14 +5344,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 20,
+			"dexterity": 16,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5233,10 +5361,11 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 150,
+		"weight": 8.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": true,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5245,10 +5374,12 @@
 	},
 	{
 		"name": "Dragonslayer Greatbow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Greatbow",
+		"range": 50,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 90,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -5262,14 +5393,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "C",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 20,
+			"dexterity": 20,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5279,11 +5410,12 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 100,
+		"weight": 10.0,
 		"upgrade_type": {
 			"standard": false,
-			"unique": false,
+			"reduced": false,
+			"unique": true,
 			"demon": false,
 			"dragon": false,
 			"none": false
@@ -5291,10 +5423,12 @@
 	},
 	{
 		"name": "Gough's Greatbow",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["None"],
+		"weapon_type": "Greatbow",
+		"range": 55,
+		"dist_rate": 0,
 		"attack_rating": {
-			"physical": 0,
+			"physical": 85,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
@@ -5308,14 +5442,14 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "B",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 27,
+			"dexterity": 20,
 			"intelligence": 0,
 			"faith": 0
 		},
@@ -5325,11 +5459,12 @@
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 100,
+		"weight": 13.0,
 		"upgrade_type": {
 			"standard": false,
-			"unique": false,
+			"reduced": false,
+			"unique": true,
 			"demon": false,
 			"dragon": false,
 			"none": false
@@ -5337,44 +5472,45 @@
 	},
 	{
 		"name": "Guardian Tail",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular"],
+		"weapon_type": "Whip",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 84,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 30,
+			"magic": 10,
+			"fire": 20,
+			"lightning": 20,
+			"stability": 16
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "C",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 15,
+			"dexterity": 10,
 			"intelligence": 0,
 			"faith": 0
 		},
 		"aux_effects": {
 			"bleed": 0,
-			"poison": 0,
+			"poison": 180,
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 250,
+		"weight": 5.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5383,44 +5519,45 @@
 	},
 	{
 		"name": "Notched Whip",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular"],
+		"weapon_type": "Whip",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 76,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
 		},
 		"damage_reduction": {
-			"physical": 0,
-			"magic": 0,
-			"fire": 0,
-			"lightning": 0,
-			"stability": 0
+			"physical": 30,
+			"magic": 10,
+			"fire": 20,
+			"lightning": 20,
+			"stability": 16
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
-			"strength": 0,
-			"dexterity": 0,
+			"strength": 8,
+			"dexterity": 16,
 			"intelligence": 0,
 			"faith": 0
 		},
 		"aux_effects": {
-			"bleed": 0,
+			"bleed": 300,
 			"poison": 0,
 			"divine": 0,
 			"occult": 0
 		},
-		"durability": 0,
-		"weight": 0,
+		"durability": 200,
+		"weight": 2.0,
 		"upgrade_type": {
-			"standard": false,
+			"standard": true,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
@@ -5429,14 +5566,62 @@
 	},
 	{
 		"name": "Whip",
-		"attack_type": [],
-		"weapon_type": "",
+		"attack_type": ["Regular"],
+		"weapon_type": "Whip",
 		"attack_rating": {
-			"physical": 0,
+			"physical": 80,
 			"magic": 0,
 			"fire": 0,
 			"lightning": 0,
 			"critical": 100
+		},
+		"damage_reduction": {
+			"physical": 30,
+			"magic": 10,
+			"fire": 20,
+			"lightning": 20,
+			"stability": 16
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "B",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 7,
+			"dexterity": 14,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 200,
+		"weight": 1.5,
+		"upgrade_type": {
+			"standard": true,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": false
+		}
+	},
+	{
+		"name": "Wooden Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 35,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
 		},
 		"damage_reduction": {
 			"physical": 0,
@@ -5446,10 +5631,10 @@
 			"stability": 0
 		},
 		"param_bonus": {
-			"strength": "",
-			"dexterity": "",
-			"intelligence": "",
-			"faith": ""
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
 		},
 		"req_param": {
 			"strength": 0,
@@ -5464,13 +5649,638 @@
 			"occult": 0
 		},
 		"durability": 0,
-		"weight": 0,
+		"weight": 0.0,
 		"upgrade_type": {
 			"standard": false,
+			"reduced": false,
 			"unique": false,
 			"demon": false,
 			"dragon": false,
-			"none": false
+			"none": true
+		}
+	},
+	{
+		"name": "Standard Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 45,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Large Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 15,
+		"attack_rating": {
+			"physical": 60,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Feather Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 25,
+		"attack_rating": {
+			"physical": 50,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Fire Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 35,
+			"magic": 0,
+			"fire": 50,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Poison Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 42,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 180,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Moonlight Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 0,
+			"magic": 80,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Dragonslayer Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 30,
+		"attack_rating": {
+			"physical": 100,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Gough's Great Arrow",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Arrow",
+		"dist_rate": 25,
+		"attack_rating": {
+			"physical": 105,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Wood Bolt",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Bolt",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 38,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Standard Bolt",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Bolt",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 48,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Heavy Bolt",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Bolt",
+		"dist_rate": 15,
+		"attack_rating": {
+			"physical": 64,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Lightning Bolt",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Bolt",
+		"dist_rate": 20,
+		"attack_rating": {
+			"physical": 38,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 78,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
+		}
+	},
+	{
+		"name": "Sniper Bolt",
+		"attack_type": ["Thrust"],
+		"weapon_type": "Bolt",
+		"dist_rate": 25,
+		"attack_rating": {
+			"physical": 53,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"critical": 0
+		},
+		"damage_reduction": {
+			"physical": 0,
+			"magic": 0,
+			"fire": 0,
+			"lightning": 0,
+			"stability": 0
+		},
+		"param_bonus": {
+			"strength": "-",
+			"dexterity": "-",
+			"intelligence": "-",
+			"faith": "-"
+		},
+		"req_param": {
+			"strength": 0,
+			"dexterity": 0,
+			"intelligence": 0,
+			"faith": 0
+		},
+		"aux_effects": {
+			"bleed": 0,
+			"poison": 0,
+			"divine": 0,
+			"occult": 0
+		},
+		"durability": 0,
+		"weight": 0.0,
+		"upgrade_type": {
+			"standard": false,
+			"reduced": false,
+			"unique": false,
+			"demon": false,
+			"dragon": false,
+			"none": true
 		}
 	}
 ]

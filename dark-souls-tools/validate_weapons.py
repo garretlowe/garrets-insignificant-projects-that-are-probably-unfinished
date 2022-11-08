@@ -3,9 +3,11 @@ import json
 WEAPON_TYPES = [
 	'Fist', 'Hammer', 'Great Hammer', 'Axe', 'Greataxe', 'Dagger', 'Thrusting Sword',
 	'Straight Sword', 'Greatsword', 'Ultra Greatsword', 'Katana', 'Curved Sword',
-	'Curved Greatsword', 'Spear', 'Halberd', 'Bow', 'Crossbow', 'Greatbow', 'Whip'
+	'Curved Greatsword', 'Spear', 'Halberd', 'Bow', 'Crossbow', 'Greatbow', 'Whip',
+	'Arrow', 'Bolt'
 ]
-
+WEIGHTLESS = ['Arrow', 'Bolt']
+UNBREAKABLE = ['Arrow', 'Bolt']
 PARAM_BONUSES = ['S', 'A', 'B', 'C', 'D', 'E', '-']
 
 with open('ds1_weapons.json') as file:
@@ -23,7 +25,7 @@ with open('ds1_weapons.json') as file:
 			print(f"{wep['name']} has no attack type.")
 			has_problem = True
 		for attack_type in wep["attack_type"]:
-			if not attack_type in ['Regular', 'Strike', 'Thrust', 'Slash']:
+			if not attack_type in ['Regular', 'Strike', 'Thrust', 'Slash', 'None']:
 				print(f"{wep['name']} contains invalid attack type: {attack_type}")
 				has_problem = True
 		
@@ -56,12 +58,12 @@ with open('ds1_weapons.json') as file:
 				print(f"{wep['name']} contains invalid {param} aux effect: {wep['aux_effect'][effect]}")
 				has_problem = True
 				
-		if type(wep['durability']) != int or wep['durability'] < 1 or wep['durability'] > 999:
+		if type(wep['durability']) != int or wep['durability'] < 0 or wep['durability'] > 999 or wep['weight'] < 0 or (wep['durability'] == 0 and wep['weapon_type'] not in UNBREAKABLE):
 			print(f"{wep['name']} contains invalid durability: {wep['durability']}")
 			has_problem = True
 			
-		if type(wep['weight']) != float or wep['weight'] <= 0:
-			print(f"{wep['name']} contains invalid weight: {wep['weight']}")
+		if type(wep['weight']) != float or wep['weight'] < 0 or (wep['weight'] == 0 and wep['weapon_type'] not in WEIGHTLESS):
+			print(f"{wep['name']} contains invalid weight: {wep['weight'], wep['weapon_type']}")
 			has_problem = True
 			
 		has_upgrade = False

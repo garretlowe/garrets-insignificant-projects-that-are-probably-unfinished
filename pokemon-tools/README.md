@@ -6,6 +6,8 @@ The base resource for a series of pokémon tools.
 
 Finds starter options or groups of three pokemon types that are each super effective and uneffective to eachother in a chain.
 
+Updated June 2024 as an exercise in functional programming. Also the old version was yucky to look at 🤢.
+
 ### How To Use
 
 Run via CLI: `py triad-calculator/main.py`.
